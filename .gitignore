@@ -17,3 +17,5 @@
 /.vs/SampleMVC_WebAPI_Application/v17
 /Senthil.Customer.SampleApp/packages
 /Senthil.Customer.SampleApp/Customer.WebApp.Tests/.vs
+/.vs
+/Senthil.Customer.Api.Sample/packages
