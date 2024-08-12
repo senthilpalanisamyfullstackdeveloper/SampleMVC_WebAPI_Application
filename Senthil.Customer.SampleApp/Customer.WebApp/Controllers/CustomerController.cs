@@ -58,7 +58,7 @@ namespace Customer.WebApp.Controllers
             }
             catch (Exception ex)
             {
-                ModelState.AddModelError(string.Empty, Helpers.ConstantMessage.GeneralError + " || Exception:" + ex.Message);
+                ModelState.AddModelError(string.Empty, Helpers.ConstantMessage.GeneralError + "|| Exception:" + ex.Message);
                 return this.View("Index", customerModel);
             }
         }
@@ -143,7 +143,7 @@ namespace Customer.WebApp.Controllers
             }
             catch (Exception ex)
             {
-                ModelState.AddModelError(string.Empty, "Failed to save the customer details to the database, please try again.\n" + ex.Message);
+                ModelState.AddModelError(string.Empty, "Failed to save the customer details to the database, please try again.|| Exception:" + ex.Message);
                 return this.View("Create", customerModel);
             }
         }
@@ -222,7 +222,7 @@ namespace Customer.WebApp.Controllers
             }
             catch (Exception ex)
             {
-                ModelState.AddModelError(string.Empty, "Failed to update the customer details to the database, please try again.\n" + ex.Message);
+                ModelState.AddModelError(string.Empty, "Failed to update the customer details to the database, please try again.|| Exception:" + ex.Message);
                 return this.View("Edit", customerModel);
             }
         }
