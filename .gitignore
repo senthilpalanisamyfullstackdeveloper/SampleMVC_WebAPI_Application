@@ -14,3 +14,6 @@
 /Senthil.Customer.SampleApp/Customer.WebApp/obj/Debug
 /Senthil.Customer.SampleApp/Customer.WebApp.Tests/bin/Debug
 /Senthil.Customer.SampleApp/Customer.WebApp.Tests/obj/Debug
+/.vs/SampleMVC_WebAPI_Application/v17
+/Senthil.Customer.SampleApp/packages
+/Senthil.Customer.SampleApp/Customer.WebApp.Tests/.vs
